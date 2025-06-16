@@ -13,6 +13,5 @@ Console.WriteLine("Digite o valor do desconto do salário:");
 salariodesconto = Convert.ToInt32(Console.ReadLine());
 salarioliquido = salariofinal - salariodesconto;
 Console.WriteLine("O salário líquido do funcionário é: " + salarioliquido);
-Console.WriteLine("Pressione qualquer tecla para sair...");
-Console.ReadKey();
+
 
